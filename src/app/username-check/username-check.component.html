@@ -1,0 +1,7 @@
+<body>
+    <div class="input-group-prepend" >
+    <input type="text" [(ngModel)]="userName" id="active_btn" class="form-control"  placeholder="Username">
+    <p>{{userName}}</p>
+    <button id="btn"  class="btn btn-success" [disabled]="userName=='' " (click)="userName='' ">Click</button>
+    </div>
+</body>
